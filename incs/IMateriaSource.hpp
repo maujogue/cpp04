@@ -6,16 +6,16 @@
 /*   By: maujogue <maujogue@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/19 13:59:14 by maujogue          #+#    #+#             */
-/*   Updated: 2023/10/19 14:04:09 by maujogue         ###   ########.fr       */
+/*   Updated: 2023/10/23 14:23:09 by maujogue         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 
-#ifndef MATERIASOURCE_HPP
-# define MATERIASOURCE_HPP
+#ifndef IMATERIASOURCE_HPP
+# define IMATERIASOURCE_HPP
 
 # include <iostream>
-# include "../incs/AMateria.hpp"
+# include "AMateria.hpp"
 
 class IMateriaSource
 {

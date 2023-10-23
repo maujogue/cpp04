@@ -6,7 +6,7 @@
 /*   By: maujogue <maujogue@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/19 13:37:09 by maujogue          #+#    #+#             */
-/*   Updated: 2023/10/19 15:43:32 by maujogue         ###   ########.fr       */
+/*   Updated: 2023/10/23 12:43:58 by maujogue         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 # define ICHARACTER_HPP
 
 # include <iostream>
+# include "AMateria.hpp"
 
 class AMateria;
 

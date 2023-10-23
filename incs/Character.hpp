@@ -6,7 +6,7 @@
 /*   By: maujogue <maujogue@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/19 13:50:48 by maujogue          #+#    #+#             */
-/*   Updated: 2023/10/19 15:44:01 by maujogue         ###   ########.fr       */
+/*   Updated: 2023/10/23 15:06:26 by maujogue         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,9 @@ class ICharacter;
 class Character : public ICharacter {
 	private:
 		std::string _name;
+		AMateria*	_inventory[4];
+		AMateria**	_trash;
+		int			_nbTrash;
 
 	public:
 		Character( void );
@@ -34,6 +37,9 @@ class Character : public ICharacter {
 		void equip( AMateria* m );
 		void unequip( int idx );
 		void use( int idx, ICharacter& target );
+		int	getEmptySlotIndex( void );
+		int	alreadyInInventory(AMateria* src);
 };
+
 
 #endif
